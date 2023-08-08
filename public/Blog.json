@@ -1,0 +1,32 @@
+[
+    {
+        "image": "https://i.ibb.co/10Rrxsn/blog-standard01.jpg",
+        "title": "Exactly How Technology Can Make Reading",
+        "category": "Front-End",
+        "name":"Robert Smith",
+        "date": "Aug 20, 2023"
+    },
+    {
+        "image": "https://i.ibb.co/xXXckD9/blog-standard02.jpg",
+        "title": "Aewe Creating Futures Through Technology",
+        "category": "Back-End",
+        "name":"Olivia Mia",
+        "date": "Sep 10,2023"
+    },
+    {
+        "image": "https://i.ibb.co/NZyPKW7/blog-standard03.jpg",
+        "title": "Learning JavaScript With Imagination",
+        "category": "Full-Stack",
+        "name":"William Hope",
+        "date": "Oct 12,2023"
+    },
+    {
+        "image": "https://i.ibb.co/ChpKVgx/blog-standard04.jpg",
+        "title": "Make Your Magnificent May 2023 Edition",
+        "category": "React Developer",
+        "name":"Sophia Ava",
+        "date": "Oct 25.2023"
+    }
+   
+    
+]

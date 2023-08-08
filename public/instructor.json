@@ -1,0 +1,42 @@
+[
+    {
+        "image": "https://i.ibb.co/t2Z17fL/instructor01-1.png",
+        "title": "Front-End",
+        "name": "Robert Smith"
+    },
+    {
+        "image": "https://i.ibb.co/Gk8KpgT/instructor02-1.png",
+        "title": "Back-End",
+        "name": "Olivia Mia"
+    },
+    {
+        "image": "https://i.ibb.co/724YTCb/instructor03-1.png",
+        "title": "Full-Stack",
+        "name": "William Hope"
+    },
+    {
+        "image": "https://i.ibb.co/KV0SGxs/instructor05.png",
+        "title": "React Developer",
+        "name": "Sophia Ava"
+    },
+    {
+        "image": "https://i.ibb.co/yYm293C/instructor04-1.png",
+        "title": "Front-End",
+        "name": "Ronald Richards"
+    },
+    {
+        "image": "https://i.ibb.co/SwtJzG5/instructor06.png",
+        "title": "Back-End",
+        "name": "Floyd Miles"
+    },
+    {
+        "image": "https://i.ibb.co/k5kGzrv/instructor08.png",
+        "title": "Full-Stack",
+        "name": "Eleanor Pena"
+    },
+    {
+        "image": "https://i.ibb.co/47wkJyd/instructor09.png",
+        "title": "React Developer",
+        "name": "Jacob Jones "
+    }
+]

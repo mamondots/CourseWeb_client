@@ -1,0 +1,23 @@
+[
+    {
+      "image": "https://i.ibb.co/Qp4RL5q/cat01-1.jpg",
+      "title": "Front-End",
+      "total_courses": 6
+    },
+    {
+      "image": "https://i.ibb.co/T47MNG1/cat02-1.jpg",
+      "title": "Back-End",
+      "total_courses": 8
+    },
+    {
+      "image": "https://i.ibb.co/9nz4Jd2/cat03-1.jpg",
+      "title": "Full-Stack",
+      "total_courses": 10
+    },
+    {
+      "image": "https://i.ibb.co/cQWz6Bj/cat04-1.jpg",
+      "title": "React Developer",
+      "total_courses": 12
+    }
+  ]
+  

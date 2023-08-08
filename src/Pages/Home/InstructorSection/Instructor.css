@@ -1,0 +1,30 @@
+.isicon .all-icon {
+    position: absolute;
+    top: -30vh;
+    text-align: center;
+    cursor: pointer;
+    transform:translateY(20px);
+    opacity:0;
+    transition:0.5s;
+}
+
+.isicon .all-icon .icon {
+    padding: 8px 8px;
+    border-radius: 50%;
+    background-color: #1363DE;
+    border: 1px solid #1363DE;
+    transition: 0.5s;
+}
+
+.isicon .all-icon .icon:hover {
+    background-color: transparent;
+    color: #1363DE;
+}
+.isicon{
+    position: relative;
+    transition:0.5s;
+}
+.isicon:hover .all-icon{
+    opacity:1;
+    transform:translateY(0px);
+}

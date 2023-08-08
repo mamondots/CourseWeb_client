@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Lexend Deca', sans-serif;
+}
+.drawer-side a.active{
+    color:red;
+    background-color:rgb(47, 255, 0);
+   
+}

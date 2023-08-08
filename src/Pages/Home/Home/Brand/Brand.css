@@ -1,0 +1,8 @@
+.brand_img img{
+    filter: grayscale(100%);
+    transition: 0.5s;
+    cursor: pointer;
+}
+.brand_img img:hover{
+    filter: grayscale(0%);
+}

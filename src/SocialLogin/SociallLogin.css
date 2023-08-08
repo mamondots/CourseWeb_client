@@ -1,0 +1,15 @@
+.dabul_line{
+    position: relative;
+    z-index:2;
+    overflow: hidden;
+}
+.dabul_line::before{
+    position: absolute;
+    content: "";
+    width:100%;
+    height:2px;
+    background-color:#26262617;
+    top:50%;
+    left:0px;
+    z-index:-1;
+}
