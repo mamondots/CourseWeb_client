@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Events = () => {
     const [events, setEvents] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/events')
+        fetch('https://eduvalt-server-site.vercel.app/events')
             .then(res => res.json())
             .then(data => {
                 console.log(data)

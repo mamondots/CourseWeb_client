@@ -8,7 +8,7 @@ const ManageCourses = () => {
 
     
     const handleDeleteCourse = course =>{
-        fetch(`http://localhost:5000/courses/${course._id}`,{
+        fetch(`https://eduvalt-server-site.vercel.app/courses/${course._id}`,{
             method:'DELETE'
         })
         .then(res => res.json())

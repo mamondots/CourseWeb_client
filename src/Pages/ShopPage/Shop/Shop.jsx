@@ -193,7 +193,9 @@ const Shop = () => {
                            </div>
                            
                               <div className='z-10 flex items-center justify-center text-[#1363DF] absolute top-[35%] left-[30%] space-x-2 products-icon text-lg'>
+                                    <Link to={`/productDetails/${product._id}`}>
                                     <p><AiOutlineShoppingCart></AiOutlineShoppingCart></p>
+                                    </Link>
                                     <p><AiFillHeart></AiFillHeart></p>
                                     <Link to={`/productDetails/${product._id}`}><p><AiFillEye></AiFillEye></p></Link>
                               </div>

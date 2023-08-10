@@ -5,7 +5,7 @@ const useBlogs = () => {
     const {data: blogs=[],refetch} = useQuery({
         queryKey:['blogs'],
         queryFn:async() =>{
-           const res = await fetch('http://localhost:5000/blogs')
+           const res = await fetch('https://eduvalt-server-site.vercel.app/blogs')
            return res.json()
         }
         

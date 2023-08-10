@@ -18,7 +18,7 @@ const AdminHome = () => {
 
     const [user, setUser] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/users')
+        fetch('https://eduvalt-server-site.vercel.app/users')
             .then(res => res.json())
             .then(data => {
                 setUser(data)

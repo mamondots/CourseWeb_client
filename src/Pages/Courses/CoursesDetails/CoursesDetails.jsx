@@ -19,7 +19,7 @@ const CoursesDetails = () => {
     const { id } = useParams()
     const [courses, setCourses] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/courses/${id}`)
+        fetch(`https://eduvalt-server-site.vercel.app/courses/${id}`)
             .then(res => res.json())
             .then(data => {
                 setCourses(data)

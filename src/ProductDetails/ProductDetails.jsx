@@ -10,7 +10,7 @@ const ProductDetails = () => {
     const { id } = useParams()
     const [product, setProduct] = useState([])
     useEffect(() => {
-        fetch(`http://localhost:5000/products/${id}`)
+        fetch(`https://eduvalt-server-site.vercel.app/products/${id}`)
             .then(res => res.json())
             .then(data => {
                 setProduct(data)

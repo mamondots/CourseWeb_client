@@ -5,7 +5,7 @@ const useProducts = () => {
     const {data: products=[],refetch} = useQuery({
         queryKey:['products'],
         queryFn:async() =>{
-           const res = await fetch('http://localhost:5000/products')
+           const res = await fetch('https://eduvalt-server-site.vercel.app/products')
            return res.json()
         }
         

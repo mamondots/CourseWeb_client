@@ -65,7 +65,7 @@ const CoursesConten = () => {
   const { data: courses = [] } = useQuery({
     queryKey: ['courses'],
     queryFn: async () => {
-      const res = await fetch('http://localhost:5000/courses')
+      const res = await fetch('https://eduvalt-server-site.vercel.app/courses')
       return res.json()
     }
 

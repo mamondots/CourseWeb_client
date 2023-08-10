@@ -22,7 +22,7 @@ const AddCourses = () => {
                 const newCourse = { category, title, book, hours, minutes, rating, subtitle, price: parseFloat(price), image: imgURL }
                 console.log(newCourse)
 
-                fetch('http://localhost:5000/courses', {
+                fetch('https://eduvalt-server-site.vercel.app/courses', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'

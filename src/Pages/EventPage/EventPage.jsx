@@ -11,7 +11,7 @@ const EventPage = () => {
     const {id} = useParams()
     const [event,setEvent] = useState([])
     useEffect(() =>{
-        fetch(`http://localhost:5000/events/${id}`)
+        fetch(`https://eduvalt-server-site.vercel.app/events/${id}`)
         .then(res => res.json())
         .then(data =>{
             setEvent(data)

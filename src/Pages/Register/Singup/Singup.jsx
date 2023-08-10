@@ -23,7 +23,7 @@ const Singup = () => {
                 updateUserProfile(data.firstName, data.lastName, data.photoURL)
                     .then(() => {
                         const saveUser = { name: (data.firstName + data.lastName), image: data.photoURL, email: data.email }
-                        fetch('http://localhost:5000/users', {
+                        fetch('https://eduvalt-server-site.vercel.app/users', {
                             method: 'POST',
                             headers: {
                                 'content-type': 'application/json'

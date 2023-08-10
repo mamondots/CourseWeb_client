@@ -22,7 +22,7 @@ const AddProduct = () => {
                 const newProduct = { category, title,  rating, description, price: parseFloat(price), image: imgURL }
                 console.log(newProduct)
 
-                fetch('http://localhost:5000/products', {
+                fetch('https://eduvalt-server-site.vercel.app/products', {
                     method: 'POST',
                     headers: {
                         'content-type': 'application/json'
